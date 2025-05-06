@@ -1,0 +1,78 @@
+/* nav.css */
+.navbar {
+    background-color: #00353F;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 99;
+    font-family: Inter, sans-serif;
+}
+
+.navbar a {
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+.side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #D46F4D;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6.2%;
+    font-family: Inter, sans-serif;
+
+}
+
+.side-navbar a {
+    background-color: #FFBF66;
+    color: #000000;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid black;
+    margin: 0;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.side-navbar .settings-link{
+    margin-top: 200%;
+    margin-left: 5%;
+    margin-right: 70%;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+/* clignotant du css*/
+ .clignotant {
+     animation: clignoter 1s infinite;
+     background-color: black;
+     color: black;
+     border: none;
+ }
+
+@keyframes clignoter {
+    0% { background-color: red; }
+    50% { background-color: #FFBF66; color: red; }
+    100% { background-color: red; }
+}
+
+
+@media screen and (max-width: 820px) {
+    .side-navbar {
+        padding-top: 8.2%;
+    }
+}
+

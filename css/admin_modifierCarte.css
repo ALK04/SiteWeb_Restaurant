@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #00cfe6;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+form > div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.element {
+    background:#dcdcdc;
+    padding:10px;
+    border-radius:10px
+}
+
+.element select {
+    width: 90px;
+    height: 30px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #000;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #dcdcdc;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+ body {
+     background-color: #08C5D1;
+     font-family: 'Inter', sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+.boisson-container {
+    margin-top: 6%;
+    margin-left: 15%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.boisson-carte {
+    background-color: #FFBF66;
+    width: 200px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.boisson-header {
+    background-color: #D46F4D;
+    color: black;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+}
+.boisson-contenu {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.boisson-contenu p {
+    margin: 0;
+    font-size: 16px;
+}
+.boisson-footer {
+    background-color: #25BF59;
+    text-align: center;
+    padding: 12px;
+
+}
+
+ .boisson-footer button {
+     width: 100%;
+     height: 100%;
+     background: none;
+     border: none;
+     color: black;
+     font-weight: bold;
+     cursor: pointer;
+     font-size: 18px; /* un peu plus gros */
+ }
