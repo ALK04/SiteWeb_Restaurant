@@ -1,7 +1,3 @@
-Bien sûr ! Voici un exemple de fichier `README.md` pour ton projet **SiteWeb\_Restaurant** en PHP orienté objet, connecté à une base de données MySQL :
-
----
-
 # 🍽️ SiteWeb\_Restaurant
 
 ## Description
